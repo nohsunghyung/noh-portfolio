@@ -1,31 +1,30 @@
 <template>
-	<div>
-		<section
-			class="user-info"
-			v-for="(item, index) in this.contents"
-			:key="index"
-		>
-			<h1 class="user-name">{{ item.profile.name }}</h1>
-			<h3 class="user-position">Front-end developer</h3>
+	<div id="content">
+		<!-- <userProfile :userData="contents"></userProfile> -->
+		<section class="portfolio-section">
+			<portfolio-list :itemList="contents.project"></portfolio-list>
 		</section>
 	</div>
 </template>
 
 <script>
-import profileData from './utils/profile';
+import profileData from '@/data/portfolioData.js';
+// import userProfile from '@/components/userProfile.vue';
+import portfolioList from '@/components/portfolioList.vue';
 export default {
+	components: {
+		// userProfile,
+		portfolioList,
+	},
 	data() {
 		return {
 			contents: profileData,
 		};
 	},
-	created() {
-		// for (var item in this.contents) {
-		// 	console.log(this.contents[item]);
-		// }
-		console.log(this.contents);
-	},
+	created() {},
 };
 </script>
 
-<style></style>
+<style>
+@import './assets/css/reset.css';
+</style>
