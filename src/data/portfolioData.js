@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	profile: {
 		name: '노성형',
 		position: 'Front-end Developer',

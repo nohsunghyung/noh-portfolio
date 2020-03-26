@@ -4,13 +4,9 @@
 			class="item"
 			v-for="(item, index) in itemList"
 			:key="index"
-			:style="[
-				item.images != ''
-					? { 'background-image': `url(${item.images})` }
-					: { 'background-image': 'none' },
-			]"
+			:style="{ 'background-image': `url(${item.images})` }"
 		>
-			<a href="javascript:void(0);" class="link">
+			<a :href="item.url || 'javascript:void(0)'" class="link" target="_blank">
 				<div class="text-area">
 					<h3 class="subject">{{ item.subject }}</h3>
 					<div class="date">{{ item.date }}</div>
@@ -26,9 +22,6 @@
 
 <script>
 export default {
-	data() {
-		return {};
-	},
 	props: {
 		itemList: {
 			type: Array,
