@@ -5,6 +5,10 @@
 				<div class="text-area">
 					<h2 class="subject">Portfolio</h2>
 					<p class="sub-text">퍼블리싱(마크업) 프로젝트 리스트</p>
+					<p class="stack">
+						stack : html5, css3, scss, gulp, javascript, jquery
+					</p>
+					<router-link to="/about" class="btn-view">이력서보기</router-link>
 				</div>
 			</div>
 		</section>
@@ -34,51 +38,70 @@ export default {
 			profileData: profileData,
 		};
 	},
-	created() {},
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .keyvisual {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	height: 400px;
 	background-color: #222;
-}
-.keyvisual .text-area {
-	padding: 0 20px;
-	text-align: center;
-}
-.keyvisual .subject {
-	font-family: 'NanumSquare';
-	font-weight: bold;
-	font-size: 65px;
-	color: #fff;
-	letter-spacing: 2px;
-}
-.keyvisual .sub-text {
-	margin-top: 10px;
-	font-weight: lighter;
-	font-size: 20px;
-	color: #fff;
+	.text-area {
+		padding: 0 20px;
+		text-align: center;
+	}
+	.subject {
+		font-family: 'NanumSquare';
+		font-weight: bold;
+		font-size: 65px;
+		color: #fff;
+		letter-spacing: 2px;
+	}
+	.sub-text {
+		margin-top: 10px;
+		font-weight: lighter;
+		font-size: 20px;
+		color: #fff;
+	}
+	.stack {
+		margin-top: 15px;
+		font-size: 16px;
+		color: #fff;
+	}
+	.btn-view {
+		transition: 0.3s;
+		display: block;
+		width: 130px;
+		height: 35px;
+		line-height: 33px;
+		margin: 30px auto 0;
+		border: 1px solid #fff;
+		color: #fff;
+		&:hover {
+			background-color: #fff;
+			color: #222;
+		}
+	}
 }
 .old-portfolio-section {
-	width: 1200px;
-	margin: 30px auto 50px;
+	margin: 50px auto;
+	padding: 40px;
 	text-align: center;
-}
-.old-portfolio-section .subject {
-	margin-bottom: 30px;
-	font-family: 'NanumSquare';
-	font-size: 40px;
-	color: #333;
-}
-.old-portfolio-section .subject small {
-	display: block;
-	margin-top: 7px;
-	font-weight: lighter;
-	font-size: 18px;
-	color: #999;
+	background-color: #fff;
+	.subject {
+		margin-bottom: 30px;
+		font-family: 'NanumSquare';
+		font-size: 30px;
+		color: #333;
+		small {
+			display: block;
+			margin-top: 7px;
+			font-weight: lighter;
+			font-size: 16px;
+			color: #999;
+		}
+	}
 }
 </style>

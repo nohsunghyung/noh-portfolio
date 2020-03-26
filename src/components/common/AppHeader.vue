@@ -23,35 +23,38 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #header {
 	position: absolute;
 	top: 30px;
 	right: 120px;
 	z-index: 10;
-}
-#header.active .gnb-menu a {
-	color: #000;
-}
-.gnb {
-	text-align: right;
-	overflow: hidden;
-}
-.gnb-menu {
-	float: left;
-}
-.gnb-menu + .gnb-menu {
-	margin-left: 20px;
-}
-.gnb-menu a {
-	display: block;
-	transition: color 0.3s;
-	font-family: 'NanumSquare';
-	font-weight: bold;
-	font-size: 25px;
-	color: #fff;
-}
-#header .gnb-menu a.router-link-active {
-	color: #4dc28a;
+	.gnb {
+		text-align: right;
+		overflow: hidden;
+	}
+	.gnb-menu {
+		float: left;
+		+ .gnb-menu {
+			margin-left: 20px;
+		}
+		a {
+			display: block;
+			transition: color 0.3s;
+			font-family: 'NanumSquare';
+			font-weight: bold;
+			font-size: 25px;
+			color: #fff;
+			text-shadow: 1px 1px 1px #666;
+			&.router-link-active {
+				color: #faf076;
+			}
+		}
+	}
+	&.active {
+		a {
+			color: #000;
+		}
+	}
 }
 </style>

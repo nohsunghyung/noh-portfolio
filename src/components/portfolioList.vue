@@ -44,8 +44,12 @@ export default {
 	background-size: cover;
 }
 .portfolio-list .item:hover .link:after {
-	opacity: 0.7;
-	transform: scale(0.7);
+	opacity: 0.8;
+	transform: scale(0.8);
+}
+.portfolio-list .item:hover .works {
+	transform: translateY(0);
+	opacity: 1;
 }
 .portfolio-list .link {
 	display: flex;
@@ -69,6 +73,7 @@ export default {
 	background-color: #fff;
 }
 .portfolio-list .text-area {
+	width: 100%;
 	position: relative;
 	z-index: 3;
 	text-align: center;
@@ -106,8 +111,13 @@ export default {
 	font-size: 16px;
 }
 .portfolio-list .works {
-	display: none;
-	margin-top: 13px;
+	transition: 0.3s;
+	transform: translateY(40px);
+	opacity: 0;
+	position: absolute;
+	top: 115px;
+	left: 0;
+	width: 100%;
 }
 .portfolio-list .works li {
 	font-size: 15px;

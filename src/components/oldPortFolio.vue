@@ -15,11 +15,31 @@ export default {
 };
 </script>
 
-<style scoped>
-.old-project-list li {
-	font-size: 15px;
-}
-.old-project-list li + li {
-	margin-top: 12px;
+<style scoped lang="scss">
+.old-project-list {
+	overflow: hidden;
+	li {
+		float: left;
+		position: relative;
+		padding: 0 10px;
+		margin-bottom: 15px;
+		font-size: 15px;
+		&:before {
+			display: block;
+			content: '';
+			position: absolute;
+			top: 50%;
+			right: 0;
+			width: 1px;
+			height: 12px;
+			margin-top: -6px;
+			background-color: #ddd;
+		}
+		&:last-child {
+			&:before {
+				display: none;
+			}
+		}
+	}
 }
 </style>
