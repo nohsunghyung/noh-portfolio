@@ -3,6 +3,17 @@ export default {
 		name: '노성형',
 		position: 'Front-end Developer',
 		birth: '1987.09.19',
+		email: 'noh8085@gmail.com',
+		links: [
+			{
+				name: 'github',
+				url: 'https://github.com/nohsunghyung',
+			},
+			{
+				name: 'Portfolio',
+				url: 'https://github.com/nohsunghyung/portfolio',
+			},
+		],
 		image: '',
 	},
 	project: [
