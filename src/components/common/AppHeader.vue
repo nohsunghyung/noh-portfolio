@@ -1,5 +1,5 @@
 <template>
-	<header id="header">
+	<header id="header" :class="{ active: isActive }">
 		<ul class="gnb">
 			<li class="gnb-menu"><router-link to="/about">About</router-link></li>
 			<li class="gnb-menu">
@@ -10,7 +10,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+	data() {
+		return {};
+	},
+	computed: {
+		// 헤더 활성화
+		isActive() {
+			return this.$route.name === 'about' ? true : false;
+		},
+	},
+};
 </script>
 
 <style scoped>
@@ -19,6 +29,9 @@ export default {};
 	top: 30px;
 	right: 120px;
 	z-index: 10;
+}
+#header.active .gnb-menu a {
+	color: #000;
 }
 .gnb {
 	text-align: right;
@@ -38,7 +51,7 @@ export default {};
 	font-size: 25px;
 	color: #fff;
 }
-.gnb-menu .router-link-active {
+#header .gnb-menu a.router-link-active {
 	color: #4dc28a;
 }
 </style>

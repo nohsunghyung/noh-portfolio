@@ -65,7 +65,7 @@ export default {
 }
 .old-portfolio-section {
 	width: 1200px;
-	margin: 40px auto;
+	margin: 30px auto 50px;
 	text-align: center;
 }
 .old-portfolio-section .subject {
@@ -76,7 +76,7 @@ export default {
 }
 .old-portfolio-section .subject small {
 	display: block;
-	margin-top: 5px;
+	margin-top: 7px;
 	font-weight: lighter;
 	font-size: 18px;
 	color: #999;
