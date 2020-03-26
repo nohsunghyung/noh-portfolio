@@ -76,8 +76,11 @@ export default {
 		width: 130px;
 		height: 35px;
 		line-height: 33px;
-		margin: 30px auto 0;
+		margin: 40px auto 0;
 		border: 1px solid #fff;
+		font-family: 'NanumSquare';
+		font-size: 17px;
+		font-weight: bold;
 		color: #fff;
 		&:hover {
 			background-color: #fff;
