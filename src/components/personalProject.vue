@@ -62,19 +62,19 @@ export default {
 		font-size: 26px;
 	}
 	.summary {
+		margin-top: 20px;
 		span {
 			display: inline-block;
 			padding: 8px 15px;
-			margin-top: 12px;
 			font-size: 15px;
 			border-radius: 7px;
 			background-color: #f1f1f1;
 		}
 	}
 	.url {
+		margin-top: 15px;
 		a {
 			display: inline-block;
-			margin-top: 12px;
 			border-bottom: 1px solid #ddd;
 			font-size: 14px;
 			color: #999;
@@ -119,7 +119,7 @@ export default {
 					height: 12px;
 					position: absolute;
 					top: 50%;
-					left: 0;
+					left: 3px;
 					margin-top: -6px;
 					background-color: #ddd;
 				}

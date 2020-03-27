@@ -4,7 +4,7 @@
 			<div class="keyvisual">
 				<div class="text-area">
 					<h2 class="subject">Portfolio</h2>
-					<router-link to="/about" class="btn-view">이력서보기</router-link>
+					<!-- <router-link to="/about" class="btn-view">이력서보기</router-link> -->
 				</div>
 			</div>
 		</section>
@@ -26,6 +26,9 @@
 			</section>
 			<section class="portfolio-section">
 				<h3 class="section-title"><span>B</span>efore project</h3>
+				<p class="stack">
+					stack : html5, css3, javascript, jquery
+				</p>
 				<old-portfolio
 					:itemList="profileData.project.oldProject"
 				></old-portfolio>

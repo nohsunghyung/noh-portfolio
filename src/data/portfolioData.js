@@ -22,14 +22,14 @@ export default {
 				summary: 'REST API를 이용한 CRUD기능의 학습노트 애플리케이션',
 				url: 'https://github.com/nohsunghyung/vue-learning-note',
 				images: require('@/assets/images/note.gif'),
-				skils: ['Vue.js', 'Vue Router', 'Vuex', 'Axios'],
+				skils: ['Vue.js', 'Vue Router', 'Vuex', 'Axios', 'javascript'],
 			},
 			{
 				subject: 'Vue.js Hacker News',
 				summary: 'REST API를 이용한 Hacker News',
 				url: 'https://github.com/nohsunghyung/vue-hacker-news',
 				images: require('@/assets/images/hacker.gif'),
-				skils: ['Vue.js', 'Vue Router', 'Vuex', 'Axios'],
+				skils: ['Vue.js', 'Vue Router', 'Vuex', 'Axios', 'javascript'],
 			},
 		],
 		company: [
