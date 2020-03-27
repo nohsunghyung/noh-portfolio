@@ -4,9 +4,11 @@
 			<user-data :userData="profileData"></user-data>
 			<section class="profile-section project-section">
 				<h3 class="section-title"><span>P</span>ersonal project</h3>
+				<p>준비중입니다.</p>
 			</section>
 			<section class="profile-section project-section">
 				<h3 class="section-title"><span>W</span>ork experience</h3>
+				<p>준비중입니다.</p>
 			</section>
 		</div>
 	</div>

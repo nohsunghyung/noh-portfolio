@@ -55,6 +55,9 @@ export default {
 				transform: translateY(-10px);
 				opacity: 1;
 			}
+			.text-area {
+				transform: translateY(-20px);
+			}
 		}
 		.link {
 			display: flex;
@@ -79,6 +82,7 @@ export default {
 		}
 	}
 	.text-area {
+		transition: 0.3s;
 		width: 100%;
 		position: relative;
 		z-index: 3;
