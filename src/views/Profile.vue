@@ -2,8 +2,11 @@
 	<div class="profile-content">
 		<div class="profile-inner">
 			<user-data :userData="profileData"></user-data>
-			<section class="profile-section intro-section">
-				<h4 class="section-title"><span>W</span>ork experience</h4>
+			<section class="profile-section project-section">
+				<h3 class="section-title"><span>P</span>ersonal project</h3>
+			</section>
+			<section class="profile-section project-section">
+				<h3 class="section-title"><span>W</span>ork experience</h3>
 			</section>
 		</div>
 	</div>
@@ -31,15 +34,6 @@ export default {
 	padding: 40px;
 	background-color: #fff;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
-	.section-title {
-		font-family: 'NanumSquare';
-		font-weight: bold;
-		font-size: 35px;
-		span {
-			color: #faf076;
-			text-shadow: 1px 1px 1px #666;
-		}
-	}
 }
 .profile-section {
 	padding: 20px 0;

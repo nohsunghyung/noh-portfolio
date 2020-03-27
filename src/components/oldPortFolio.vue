@@ -17,6 +17,7 @@ export default {
 
 <style scoped lang="scss">
 .old-project-list {
+	margin-top: 40px;
 	overflow: hidden;
 	li {
 		float: left;

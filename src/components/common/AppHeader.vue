@@ -45,9 +45,9 @@ export default {
 			font-weight: bold;
 			font-size: 25px;
 			color: #fff;
-			text-shadow: 1px 1px 1px #666;
+			text-shadow: 1px 1px 1px #222;
 			&.router-link-active {
-				color: #faf076;
+				color: #f4e533;
 			}
 		}
 	}
