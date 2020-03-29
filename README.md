@@ -2,6 +2,9 @@
 
 > Vue.js를 이용하여 만든 포트폴리오 및 이력서 입니다.
 
+## DEMO
+
+> [https://nohsunghyung.github.io/](https://nohsunghyung.github.io/)
 
 ## 설치방법
 
