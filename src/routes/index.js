@@ -6,10 +6,10 @@ Vue.use(VueRouter);
 export const router = new VueRouter({
 	// mode: 'history',
 	routes: [
-		// {
-		// 	path: '/',
-		// 	redirect: '/portfolio',
-		// },
+		{
+			path: '/',
+			redirect: '/portfolio',
+		},
 		{
 			path: '/portfolio',
 			component: () => import('@/views/Portfolio.vue'),
