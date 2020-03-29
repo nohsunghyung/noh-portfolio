@@ -7,7 +7,7 @@ export const router = new VueRouter({
 	mode: 'history',
 	routes: [
 		{
-			path: '/noh-portfolio',
+			path: '/',
 			redirect: '/portfolio',
 		},
 		{
