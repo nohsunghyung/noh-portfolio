@@ -1,7 +1,7 @@
 <template>
 	<header id="header" :class="{ active: isActive }">
 		<ul class="gnb">
-			<!-- <li class="gnb-menu"><router-link to="/about">About</router-link></li> -->
+			<li class="gnb-menu"><router-link to="/about">About</router-link></li>
 			<li class="gnb-menu">
 				<router-link to="/portfolio">Portfolio</router-link>
 			</li>

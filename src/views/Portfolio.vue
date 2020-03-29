@@ -4,7 +4,7 @@
 			<div class="keyvisual">
 				<div class="text-area">
 					<h2 class="subject">Portfolio</h2>
-					<!-- <router-link to="/about" class="btn-view">이력서보기</router-link> -->
+					<router-link to="/about" class="btn-view">이력서보기</router-link>
 				</div>
 			</div>
 		</section>
@@ -92,9 +92,9 @@ export default {
 		transition: 0.3s;
 		display: block;
 		width: 130px;
-		height: 35px;
-		line-height: 33px;
-		margin: 40px auto 0;
+		height: 40px;
+		line-height: 38px;
+		margin: 30px auto 0;
 		border: 1px solid #fff;
 		font-family: 'NanumSquare';
 		font-size: 17px;
