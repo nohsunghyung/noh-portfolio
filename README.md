@@ -4,7 +4,7 @@
 
 ## DEMO
 
-> [https://nohsunghyung.github.io/](https://nohsunghyung.github.io/)
+> [https://nohsunghyung.github.io/](https://nohsunghyung.github.io/){: target="_blank"}
 
 ## 설치방법
 
