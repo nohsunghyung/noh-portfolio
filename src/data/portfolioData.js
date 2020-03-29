@@ -13,8 +13,28 @@ export default {
 				url: 'https://github.com/nohsunghyung',
 			},
 		],
-		image: '',
+		image: require('../assets/images/noh.jpg'),
 	},
+	career: [
+		{
+			company: '젠나인소프트',
+			date: '2018.01 ~ 현재',
+			position: '퍼블리싱팀 / 선임연구원',
+			works: [
+				'웹표준/웹접근성/UI/UX를 고려한 퍼블리싱',
+				'javascript / jquery를 이용한 스크립트개발',
+			],
+		},
+		{
+			company: '예손커뮤니케이션',
+			date: '2016.12 ~ 2017.12',
+			position: '퍼블리싱팀 / 대리',
+			works: [
+				'웹표준/웹접근성/UI/UX를 고려한 퍼블리싱',
+				'javascript / jquery를 이용한 스크립트개발',
+			],
+		},
+	],
 	project: {
 		personal: [
 			{
@@ -22,21 +42,21 @@ export default {
 				summary: 'REST API를 이용한 CRUD기능의 학습노트 애플리케이션',
 				url: 'https://github.com/nohsunghyung/vue-learning-note',
 				images: require('@/assets/images/note.gif'),
-				skils: ['Vue.js', 'Vue Router', 'Vuex', 'Axios', 'javascript'],
+				skils: 'Vue.js / Vue Router / Vuex / Axios / javascript',
 			},
 			{
 				subject: 'Vue.js Hacker News',
 				summary: 'REST API를 이용한 Hacker News',
 				url: 'https://github.com/nohsunghyung/vue-hacker-news',
 				images: require('@/assets/images/hacker.gif'),
-				skils: ['Vue.js', 'Vue Router', 'Vuex', 'Axios', 'javascript'],
+				skils: 'Vue.js / Vue Router / Vuex / Axios / javascript',
 			},
 		],
 		company: [
 			{
 				subject: 'NUNC(미샤)',
 				url: '',
-				date: '2019년 11월 ~ 2020년 04월',
+				date: '2019.11 ~ 2020.04',
 				type: 'PC/MO',
 				images: require('@/assets/images/missha.jpg'),
 				works: [
@@ -49,7 +69,7 @@ export default {
 			{
 				subject: '하우홈몰(노루표페인트)',
 				url: 'https://www.howhomemall.com/main',
-				date: '2019년 07월 ~ 2019년 10월',
+				date: '2019.07 ~ 2019.10',
 				type: 'PC/MO',
 				images: require('@/assets/images/howhome.jpg'),
 				works: [
@@ -61,7 +81,7 @@ export default {
 			{
 				subject: 'AK뷰티',
 				url: 'https://www.akbeauty.co.kr/',
-				date: '2019년 04월 ~ 2019년 07월',
+				date: '2019.04 ~ 2019.07',
 				type: 'PC/MO',
 				images: require('@/assets/images/ak.jpg'),
 				works: ['프로젝트 공통요소작업', '스크립트 개발', '페이지 퍼블리싱'],
@@ -69,7 +89,7 @@ export default {
 			{
 				subject: 'Demers',
 				url: 'http://demers.co.kr/',
-				date: '2019년 04월 ~ 2019년 07월',
+				date: '2019.04 ~ 2019.07',
 				type: 'Responsive',
 				images: require('@/assets/images/demers.jpg'),
 				works: ['반응형 공통요소 작업', '스크립트 개발', '페이지 퍼블리싱'],
@@ -77,7 +97,7 @@ export default {
 			{
 				subject: 'HANSKIN',
 				url: 'https://www.hanskin.com/main',
-				date: '2018년 11월 ~ 2019년 02월',
+				date: '2018.11 ~ 2019.02',
 				type: 'PC/MO',
 				images: require('@/assets/images/hanskin.jpg'),
 				works: ['공통요소작업', '스크립트 개발', '페이지 퍼블리싱'],
@@ -85,7 +105,7 @@ export default {
 			{
 				subject: 'K CAR(SK엔카)',
 				url: 'https://www.kcar.com/index.do',
-				date: '2018년 07월 ~ 2018년 10월',
+				date: '2018.07 ~ 2018.10',
 				type: 'PC/MO',
 				images: require('@/assets/images/kcar.jpg'),
 				works: ['내차사기/내차팔기 퍼블리싱', '스크립트 개발'],
@@ -93,7 +113,7 @@ export default {
 			{
 				subject: '대한부인비뇨과학회',
 				url: '',
-				date: '2018년 05월 ~ 2018년 06월',
+				date: '2018.05 ~ 2018.06',
 				type: 'PC',
 				images: require('@/assets/images/science.jpg'),
 				works: ['메인/서브페이지 퍼블리싱'],
@@ -101,7 +121,7 @@ export default {
 			{
 				subject: 'GS리테일',
 				url: '',
-				date: '2018년 04월 ~ 2018년 05월',
+				date: '2018.04 ~ 2018.05',
 				type: 'Admin',
 				images: '',
 				works: ['넥사크로 관리자 프로그램 퍼블리싱'],
@@ -109,7 +129,7 @@ export default {
 			{
 				subject: '전국 동시 지방선거',
 				url: '',
-				date: '2018년 04월 ~ 2018년 05월',
+				date: '2018.04 ~ 2018.05',
 				type: 'PC/MO',
 				images: require('@/assets/images/election.jpg'),
 				works: ['메인/서브 페이지 퍼블리싱', '스크립트 개발'],
@@ -117,7 +137,7 @@ export default {
 			{
 				subject: '듀오이벤트',
 				url: '',
-				date: '2018년 03월 ~ 2018년 04월',
+				date: '2018.03 ~ 2018.04',
 				type: 'PC',
 				images: require('@/assets/images/duo.jpg'),
 				works: ['랜딩페이지 퍼블리싱'],

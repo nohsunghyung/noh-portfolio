@@ -12,10 +12,7 @@
 				</div>
 				<dl class="skils">
 					<dt><strong>Skils</strong></dt>
-					<dd>
-						<span v-for="(skil, index) in item.skils" :key="index">
-							{{ skil }}
-						</span>
+					<dd>{{item.skils}}</span>
 					</dd>
 				</dl>
 			</div>

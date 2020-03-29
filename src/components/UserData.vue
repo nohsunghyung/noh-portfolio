@@ -1,7 +1,7 @@
 <template>
 	<section class="info-section">
 		<div class="user-image">
-			<img src="../assets/images/noh.jpg" alt="프로필사진" />
+			<img :src="userData.profile.image" alt="프로필사진" />
 		</div>
 		<div class="user-info">
 			<h1 class="user-name">{{ userData.profile.name }}</h1>
