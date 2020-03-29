@@ -45,12 +45,12 @@ export default {
 		border: 1px solid #d1d1d1;
 		img {
 			display: block;
-			width: 500px;
+			width: 600px;
 		}
 	}
 	.description {
 		float: left;
-		margin-top: 40px;
+		margin-top: 50px;
 		margin-left: 60px;
 	}
 	.project-title {
