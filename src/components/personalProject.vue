@@ -12,8 +12,7 @@
 				</div>
 				<dl class="skils">
 					<dt><strong>Skils</strong></dt>
-					<dd>{{item.skils}}</span>
-					</dd>
+					<dd>{{ item.skils }}</dd>
 				</dl>
 			</div>
 		</li>
