@@ -46,7 +46,7 @@ export default {
 			},
 			{
 				subject: 'Vue.js Hacker News',
-				summary: 'Axios를 이용한 REST API 기반의 Hacker New',
+				summary: 'Axios를 이용한 API호출로 제작된 Hacker New',
 				url: 'https://github.com/nohsunghyung/vue-hacker-news',
 				images: require('@/assets/images/hacker.gif'),
 				skils: 'Vue.js / Vue Router / Vuex / Axios / javascript',
