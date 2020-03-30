@@ -4,7 +4,7 @@
 
 ## DEMO
 
-> [https://nohsunghyung.github.io/](https://nohsunghyung.github.io/)
+> [https://nohsunghyung.github.io/noh-portfolio](https://nohsunghyung.github.io/noh-portfolio)
 
 ## 설치방법
 
