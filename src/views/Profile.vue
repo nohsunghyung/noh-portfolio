@@ -6,7 +6,7 @@
 				<h3 class="section-title"><span>I</span>ntroduce</h3>
 				<p class="profile-text">
 					퍼블리싱 경력 3년차. 현재 javascript 및 Vue.js를 이용한 Front-end
-					개발에 관심이 많으며<br />
+					개발자로 전향중이며<br />
 					적극적이고 능동적이며 항상 고민하는 front-end 개발자로 나아가기 위해
 					학습하며 노력하고 있습니다.
 				</p>

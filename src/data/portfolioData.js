@@ -38,18 +38,25 @@ export default {
 	project: {
 		personal: [
 			{
-				subject: 'Vue.js 학습 노트 애플리케이션',
+				subject: 'Vue - 학습 노트 애플리케이션',
 				summary: 'Axios를 이용한 REST API 기반의 CRUD 학습노트 애플리케이션',
 				url: 'https://github.com/nohsunghyung/vue-learning-note',
 				images: require('@/assets/images/note.gif'),
-				skils: 'Vue.js / Vue Router / Vuex / Axios / javascript',
+				skils: 'Vue / Vue Router / Vuex / Axios / javascript',
 			},
 			{
-				subject: 'Vue.js Hacker News',
+				subject: 'Vue - Hacker News',
 				summary: 'Axios를 이용한 API호출로 제작된 Hacker New',
 				url: 'https://github.com/nohsunghyung/vue-hacker-news',
 				images: require('@/assets/images/hacker.gif'),
-				skils: 'Vue.js / Vue Router / Vuex / Axios / javascript',
+				skils: 'Vue / Vue Router / Vuex / Axios / javascript',
+			},
+			{
+				subject: 'Vue - Todo리스트',
+				summary: 'vue를 이용한 Todo리스트',
+				url: 'https://github.com/nohsunghyung/vue-todolist',
+				images: require('@/assets/images/todo.gif'),
+				skils: 'Vue / Vuex / javascript',
 			},
 		],
 		company: [
