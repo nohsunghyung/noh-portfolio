@@ -53,7 +53,7 @@ export default {
 			},
 			{
 				subject: 'Vue - Todo리스트',
-				summary: 'vue를 이용한 Todo리스트',
+				summary: '검색필터 기능의 Todo리스트',
 				url: 'https://github.com/nohsunghyung/vue-todolist',
 				images: require('@/assets/images/todo.gif'),
 				skils: 'Vue / Vuex / javascript',
