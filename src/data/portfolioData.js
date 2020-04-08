@@ -62,7 +62,7 @@ export default {
 		company: [
 			{
 				subject: 'NUNC(미샤)',
-				url: '',
+				url: 'https://www.mynunc.com/main',
 				date: '2019.11 ~ 2020.04',
 				type: 'PC/MO',
 				images: require('@/assets/images/missha.jpg'),
